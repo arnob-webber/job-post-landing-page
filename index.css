@@ -43,7 +43,10 @@ body {
   /* Border radiuses */
   --br-xs: 12px;
 }
-
+button {
+  cursor: pointer;
+  border: none;
+}
 /* core style */
 .slogan {
   position: relative;
@@ -244,7 +247,6 @@ body {
 .button1 {
   width: 212px;
   border-radius: var(--br-xs);
-  border: 1px solid var(--color-limegreen);
   box-sizing: border-box;
   height: 44px;
   flex-direction: row;
@@ -301,7 +303,6 @@ body {
 }
 .button2 {
   border-radius: var(--br-xs);
-  border: 1px solid var(--color-gray-300);
   justify-content: center;
   padding: var(--padding-xs) var(--padding-13xl);
   text-align: center;
@@ -437,6 +438,7 @@ body {
   border: 1px solid var(--color-limegreen);
   flex-direction: row;
   padding: var(--padding-xs) var(--padding-13xl);
+  border: none;
 }
 .title-description-button4 {
   display: flex;
@@ -578,9 +580,7 @@ body {
 .with-postjob {
   color: var(--color-white);
 }
-/* .slogan-txt {
-  width: 100%;
-} */
+
 .description33,
 .slogan2 {
   position: relative;
@@ -603,8 +603,7 @@ body {
   position: relative;
   line-height: 22px;
 }
-.button5,
-.content4 {
+.button5 {
   display: flex;
   flex-direction: row;
 }
@@ -618,14 +617,7 @@ body {
   font-size: var(--font-size-base);
   color: var(--color-darkslategray);
 }
-.content4 {
-  align-self: stretch;
-  flex: 1;
-  align-items: baseline;
-  justify-content: space-between;
-  padding: 0 var(--padding-5xs) 0 var(--padding-5xl);
-}
-.input,
+
 .slogan-description-input1 {
   display: flex;
   align-items: center;
@@ -634,13 +626,18 @@ body {
 .input {
   width: 567px;
   border-radius: 16px;
-  background-color: var(--color-gray-300);
-  border: 1px solid var(--color-gray-100);
+  background-color: #b5b5b5;
   box-sizing: border-box;
   flex-direction: row;
   padding: var(--padding-5xs) 0 var(--padding-5xs) var(--padding-base);
   text-align: left;
   font-size: 18px;
+  color: white;
+  border: none;
+}
+
+.input:hover {
+  border: none;
 }
 .slogan-description-input1 {
   flex-direction: column;
