@@ -202,7 +202,7 @@ body {
 .footer {
   position: absolute;
   left: 0;
-  width: 1512px;
+  width: 100%;
 }
 .content {
   top: 0;
@@ -495,7 +495,7 @@ body {
 .about-section-2 {
   position: absolute;
   top: 1931px;
-  left: 0;
+  left: -4.8em;
   overflow: hidden;
   align-items: center;
   padding: var(--padding-21xl) 182px;
@@ -565,7 +565,7 @@ body {
   left: 48px;
   border-radius: var(--br-xs);
   background-color: var(--color-limegreen);
-  width: 1416px;
+  width: 1250px;
   height: 941px;
 }
 .about-section-1 {
@@ -578,9 +578,9 @@ body {
 .with-postjob {
   color: var(--color-white);
 }
-.slogan-txt {
+/* .slogan-txt {
   width: 100%;
-}
+} */
 .description33,
 .slogan2 {
   position: relative;
@@ -588,7 +588,7 @@ body {
   align-items: center;
 }
 .slogan2 {
-  width: 852px;
+  width: 100%;
   font-weight: 600;
   color: var(--color-limegreen);
 }
@@ -670,7 +670,7 @@ body {
 .slogan-description-input {
   position: absolute;
   top: 208px;
-  left: 182.5px;
+  left: 0.5em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -720,8 +720,8 @@ body {
 .menu {
   margin: 0 !important;
   position: absolute;
-  top: calc(50% + 14px);
-  left: calc(50% - 501px);
+  top: 60%;
+  left: 30%;
   gap: var(--gap-5xl);
   z-index: 2;
   color: var(--color-gray-100);
@@ -730,10 +730,9 @@ body {
 .hero-section {
   position: absolute;
   top: 0;
-  width: 1512px;
+  width: 100%;
 }
 .header {
-  left: calc(50% - 756px);
   background-color: var(--color-gray-300);
   display: flex;
   flex-direction: row;
